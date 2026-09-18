@@ -38,10 +38,12 @@ Percentage overshoot and DC-relative bandwidth are evaluated for displacement, n
 
 ## Scope and learning
 
-Practice in state-space modeling, transfer functions and interpreting dynamic responses. This is an ideal linear model, without nonlinear friction, parameter identification or hardware validation. The original model is preserved; the accompanying script has been reviewed to correct units and distinguish displacement from velocity.
+This project provided practical experience in state-space modeling, transfer functions, time-domain simulation and frequency-domain analysis. The MATLAB script and Simulink model were tested, and the Simulink response was consistent with the results obtained in MATLAB. The model also helped connect the system equations with the block-diagram representation and the resulting dynamic response.
+
+The project uses an ideal linear model and does not include nonlinear friction, parameter identification or hardware validation. The accompanying script distinguishes between displacement and velocity so that the results are interpreted correctly.
 
 References: [MATLAB margin](https://www.mathworks.com/help/control/ref/dynamicsystem.margin.html), [stepinfo](https://www.mathworks.com/help/control/ref/dynamicsystem.stepinfo.html).
 
 ## Verification status
 
-The state-space equations and the supplied Simulink block connections were reviewed. MATLAB execution could not be verified in the preparation environment because startup did not complete. Expected results above are analytical values, not a claimed successful MATLAB run. Run both the script and model locally before publishing.
+The MATLAB script and Simulink model were run successfully. The Simulink model produced results consistent with the MATLAB analysis.
