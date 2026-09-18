@@ -1,6 +1,6 @@
 # Mass–Spring–Damper System Analysis
 
-A student project by Matej Grajželj exploring time and frequency responses of a mechanical system using MATLAB and Simulink.
+A student project by Matej Grajžl exploring time and frequency responses of a mechanical system using MATLAB and Simulink.
 
 ## Model
 
